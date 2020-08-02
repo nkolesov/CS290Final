@@ -1,6 +1,7 @@
 body {
 	background-image: url(home_background.jpg);
 	font-family: 'EB Garamond', serif;
+	font-size: 1.3em;
 	text-align: center;
 }
 
@@ -32,4 +33,16 @@ body {
 	width:300px;
 	border:1px solid #ccc;
 	overflow:auto;
+}
+
+ul{
+	list-style-position: inside;
+}
+
+#skills {
+	columns: 2;
+}
+
+#download {
+	background: white;
 }
